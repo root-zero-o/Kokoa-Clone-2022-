@@ -18,7 +18,17 @@
 .screen-header__icons {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .screen-header__icons i {
   margin-left: 20px;
+}
+.screen-header__dot {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: -6px;
+  top: -8px;
 }
