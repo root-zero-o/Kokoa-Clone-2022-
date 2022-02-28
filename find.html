@@ -34,20 +34,20 @@
         </header>
 
         <main class="main-screen">
-            <div class="find-icons">
-                <div class="find-icons__icon">
+            <div class="icon-row">
+                <div class="icon-row__icon">
                     <i class="fas fa-qrcode"></i>
                     <span>QR Code</span>
                 </div>
-                <div class="find-icons__icon">
+                <div class="icon-row__icon">
                     <i class="far fa-address-book"></i>
                     <span>Add by Contacts</span>
                 </div>
-                <div class="find-icons__icon">
+                <div class="icon-row__icon">
                     <i class="fas fa-fingerprint"></i>
                     <span>Add by ID</span>
                 </div>
-                <div class="find-icons__icon">
+                <div class="icon-row__icon">
                     <i class="far fa-envelope"></i>
                     <span>Invite</span>
                 </div>
@@ -59,15 +59,47 @@
             <div class="open-chat">
                 <div class="open-chat__header">
                     <h6>Open Chat</h6>
-                    <span>Go to Openchat Home</span>
-                    <i class="fas fa-chevron-right"></i>
+                    <span>Go to Openchat Home <i class="fas fa-chevron-right"></i> </span>
                 </div>
                 <div class="open-post">
                     <div class="open-post__column">
-                        <h5 class="open-post__title">#BTS</h5>
-                        <h6 class="open-post__hashtags">#bts#army#friends</h6>
+                        <h5 class="open-post__title">#LostArk</h5>
+                        <h6 class="open-post__hashtags">#lostark#rpg#game</h6>
+                        <div class="open-post__member">
+                            <img src="https://blog.kakaocdn.net/dn/bGWJt0/btq7C4Qm17U/L5scNUgpQwxHgQ85uPBFg1/img.png"/>
+                            <span class="open-post__member-count">7942 members</span>
+                            <div class="divider"></div>
+                            <span class="open-post__member-status">Active</span>
+                        </div>
                     </div>
-                    <div class="open-post__column"></div>
+                    <div class="open-post__column">
+                        <div class="open-post__photo">
+                            <img src="https://libredd.it/style/t5_34j2k/styles/communityIcon_mmsyrgseth471.png?width=256&s=095b963e6ca9691b345e797e7f98bd9c7755201c"/>
+                            <div class="open-post__heart-count">
+                                <i class="fas fa-heart fa-sm"></i> <span>326</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="open-post">
+                    <div class="open-post__column">
+                        <h5 class="open-post__title">#Nomad Coders</h5>
+                        <h6 class="open-post__hashtags">#nico#coding#challenge</h6>
+                        <div class="open-post__member">
+                            <img src="https://avatars.githubusercontent.com/u/3612017?v=4"/>
+                            <span class="open-post__member-count">178 members</span>
+                            <div class="divider"></div>
+                            <span class="open-post__member-status">Active</span>
+                        </div>
+                    </div>
+                    <div class="open-post__column">
+                        <div class="open-post__photo">
+                            <img src="data:image/png;base64,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"/>
+                            <div class="open-post__heart-count">
+                                <i class="fas fa-heart fa-sm"></i> <span>752</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
@@ -98,6 +130,10 @@
                 </li>
             </ul>
         </nav>
+
+        <div id="no-mobile">
+            <span>Your Screen is too big</span>
+        </div>
 
         <script
         src="https://kit.fontawesome.com/6478f529f2.js"

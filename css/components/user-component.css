@@ -46,3 +46,9 @@
   margin-bottom: 10px;
   display: block;
 }
+.user-component__subtitle i {
+  color: tomato;
+}
+.user-component__column .fa-comment-alt {
+  color: #2e363e;
+}
